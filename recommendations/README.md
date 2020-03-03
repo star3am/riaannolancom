@@ -133,7 +133,7 @@ I can with great pleasure recommend Malitlhare as a valuable asset in any compan
 
 __Christoph Blau__ *Tech Lead TV Operation Center at Zattoo*
 
-June 20, 2012, Riaan managed Christoph directly
+`June 20, 2012, Riaan managed Christoph directly`
 
 Christoph is an excellent addition to any technical team, having worked with him at Zando, where the company grew from 20 to 300 in 4 months.
 
