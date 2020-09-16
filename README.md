@@ -1,7 +1,7 @@
 # Riaan Nolan
 <span style="color:#f1fa8c; font-weight:bold">curious /ˈkjʊərɪəs/ eager to know or learn something</span>
 
-<img align="right" src="/images/riaan-nolan.png" title="Riaan Nolan" alt="Riaan Nolan">
+<img align="right" src="/riaan/images/riaan-nolan.png" title="Riaan Nolan" alt="Riaan Nolan">
 
 ## About
 
@@ -27,6 +27,6 @@ __Linkedin__ <a href="https://www.linkedin.com/in/riaannolan/" target="_blank">l
 __Twitter__ <a href="https://twitter.com/riaannolan" target="_blank">twitter.com/riaannolan</a>
 
 ##### HashiTalks 2020
-<img align="center" width="800px" border="0" src="/images/hashitalks-2020-riaan-nolan-speaker-card.png" title="Riaan Nolan" alt="Riaan Nolan">
+<img align="center" width="800px" border="0" src="/riaan/images/hashitalks-2020-riaan-nolan-speaker-card.png" title="Riaan Nolan" alt="Riaan Nolan">
 
 <br />
