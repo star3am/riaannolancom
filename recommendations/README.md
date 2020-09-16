@@ -236,7 +236,7 @@ Riaan's contribution and in-depth knowledge of Linux was certainly key to the su
 
 <hr>
 
-__Dr. Hendrik Harren__*Serial Entrepreneur & Data Scientist, Partner at DISRPTIVE*
+__Dr. Hendrik Harren__ *Serial Entrepreneur & Data Scientist, Partner at DISRPTIVE*
 
 `December 20, 2012, Dr. Hendrik was senior to Riaan but didn’t manage directly`
 
