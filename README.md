@@ -1,7 +1,7 @@
 # Riaan Nolan
 <span style="color:#f1fa8c; font-weight:bold">curious /ˈkjʊərɪəs/ eager to know or learn something</span>
 
-<img align="right" src="images/riaan-nolan.png" title="Riaan Nolan" alt="Riaan Nolan">
+<img align="right" src="/images/riaan-nolan.png" title="Riaan Nolan" alt="Riaan Nolan">
 
 ## About
 
