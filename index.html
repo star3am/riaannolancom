@@ -4,6 +4,11 @@
   <title>Riaan Nolan</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:url" content="https://riaannolan.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Riaan Nolan" />
+  <meta property="og:description" content="Center of Excellence builder, HashiCorp Ambassador, Terraform Trainer, Principal Solutions Architect | DevOps, Infrastructure as Code, Automation Pipelines, Containerisation, Training" />
+  <meta property="og:image" content="https://hashiqube.com/images/youtube-hashiqube-the-jedi-devops-lab.png" />
   <meta charset="UTF-8">
   <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" href="/docsify/lib/vue.css" disabled>
@@ -27,27 +32,45 @@
     */
     :root {
       --hashi-gradient: 90deg,
-        #ff8f28 0%,
-        #ff50a4 33%,
-        #7917b6 66%,
-        #0e71bd 100%;
-      --hashi-yellow: #ffbc0a;
-      --hashi-blue: #4c93e7;
-      --hashi-teal: #24bba3;
-      --hashi-purple: #7917b6;
-      --hashi-pink: #ff50a4;
+        #370960 0%,
+        #ea216b 25%,
+        #ff5800 50%,
+        /* #fefb00 30%,
+        #61e190 40%,
+        #5cdeff 50%,
+        #61e190 60%,
+        #fefb00 70%,
+        #ff5800 60%, */
+        #ea216b 75%,
+        #370960 100%;
+      --hashi-blue: #5cdeff;
+      --hashi-green: #61e190;
+      --hashi-yellow: #fefb00;
+      --hashi-orange: #ff5800;
+      --hashi-pink: #ea216b;
+      --hashi-purple: #370960;
+    }
+
+    body {
+      background-image: linear-gradient(-150deg, #00e0a6, #007ae0);
+      transition: background-image .15s ease-in-out .15s;
+      background-attachment: fixed;
     }
 
     .yellow {
       background: var(--hashi-yellow);
     }
 
+    .orange {
+      background: var(--hashi-orange);
+    }
+
     .blue {
       background: var(--hashi-blue);
     }
 
-    .teal {
-      background: var(--hashi-teal);
+    .green {
+      background: var(--hashi-green);
     }
 
     .purple {
@@ -73,7 +96,13 @@
     }
 
     .app-name-link img:hover {
-      transform: scale(1.2);
+      transform: scale(1.3);
+    }
+
+    .sidebar {
+      background-image: linear-gradient(-150deg, #00e0a6, #007ae0);
+      transition: background-image .15s ease-in-out .15s;
+      background-attachment: fixed;
     }
 
     .sidebar-nav ul ul,
@@ -138,7 +167,12 @@
       height: 2px;
     }
 
+    .sidebar ul li a {
+      font-size: 18px;
+    }
+
     #docsify-darklight-theme {
+      background-color: #000000;
       background-repeat: no-repeat;
       background-size: 30px;
       background-position: center;
@@ -151,23 +185,28 @@
       z-index: 1000;
     }
 
-    .sidebar ul li a {
-      font-size: 16px;
-    }
-
     .content {
       padding-top: 10px;
       left: 240px;
     }
 
     .markdown-section {
-      padding-top: 110px;
+      padding-top: 80px;
       max-width: 1050px;
+    }
+
+    .markdown-section iframe {
+      border: 0px solid #eee;
+    }
+
+    .markdown-section pre>code,
+    .markdown-section code {
+      font-size: 1rem;
     }
 
     .footer {
       position: relative;
-      display: none;
+      /* display: none; */
       text-align: center;
       bottom: 10px;
     }
@@ -196,7 +235,7 @@
       height: 70px;
       margin-left: -12px;
       overflow: hidden;
-      background: var(--hashi-yellow);
+      background: var(--hashi-purple);
       z-index: 100;
       box-sizing: border-box;
       padding: 8px 0 0 5px;
@@ -243,11 +282,11 @@
     }
   </style>
 <body>
-  <div class="header"><img title="Riaan Nolan" alt="Riaan Nolan" src="/images/hashiqube-banner.png"></div>
+  <div class="header"></div>
   <div class="hasinav">
-    <a href="https://twitter.com/RiaanNolan" target="_blank" class="qube pink"><img src="/images/twitter-logo.png" border="0" alt="Twitter Account" title="Twitter Account"></a>
-    <a href="https://www.youtube.com/@hashiqube/playlists" target="_blank" class="qube teal"><img src="/images/youtube-logo.svg" border="0" alt="Youtube Channel" title="Youtube Channel"></a>
-    <a href="https://medium.com/search?q=hashiqube" target="_blank" class="qube yellow"><img src="/images/medium-logo.svg" border="0" alt="Medium Posts" title="Medium Posts"></a>
+    <a href="https://twitter.com/RiaanNolan" target="_blank" class="qube pink"><img src="/images/twitter-logo.png" border="0" al="Twitter Account" title="Twitter Account"></a>
+    <a href="https://www.youtube.com/@star3am" target="_blank" class="qube teal"><img src="/images/youtube-logo.svg"border="0" alt="Youtube Channel" title="Youtube Channel"></a>
+    <a href="https://medium.com/search?q=hashiqube" target="_blank" class="qube yellow"><img src="/images/medium-logo.svg" borde="0" alt="Medium Posts" title="Medium Posts"></a>
     <a href="https://www.linkedin.com/in/riaannolan/" target="_blank" class="qube blue"><img src="/images/linkedin-logo.png" border="0" alt="Riaan Nolan Linkedin" title="Riaan Nolan Linkedin"></a>
     <a href="https://www.hashicorp.com/ambassadors/directory?q=riaan" target="_blank" class="qube pink"><img src="/images/hashicorp-logo.svg" border="0" alt="Riaan Nolan Hashicorp Ambassador" title="Riaan Nolan Hashicorp Ambassador"></a>
   </div>
@@ -255,14 +294,15 @@
   <article class="markdown-section" id="main"></article>
   <script>
     window.$docsify = {
-      routerMode: 'hash', //hash (default) or history WORK IN PROGRESS (SEO URLs) (history does not work on github pages) see: https://github.com/docsifyjs/docsify/issues/238#issuecomment-1065320116
+      routerMode: 'history', //hash (default) or history, history mode (SEO friendly) is possible if you host on https://www.netlify.com/ see rewrite rules in _redirects file
       notFoundPage: '/',
       nameLink: '/',
       basePath: '/',
       alias: {
         '/.*/SUMMARY.md': '/SUMMARY.md'
       },
-      logo: '/riaan/images/riaan-nolan.png',
+      topMargin: 80,
+      logo: '/riaan/images/riaan-goggins.png',
       name: 'Riaan Nolan',
       repo: 'https://github.com/star3am',
       search: 'auto',
@@ -287,6 +327,14 @@
                 '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
               );
             }
+            if (lang === 'drawio') {
+              if (window.drawioConverter) {
+                console.log('drawio')
+                return window.drawioConverter(code)
+              } else {
+                return `<div class='drawio-code'>${code}</div>`
+              }
+            }
             return this.origin.code.apply(this, arguments);
           }
         }
@@ -300,34 +348,34 @@
         siteFont: "PT Sans",
         defaultTheme: 'light',
         codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
-        bodyFontSize: '17px',
+        bodyFontSize: '18px',
         dark: {
           accent: '#8be9fd',
           toggleBackground: '#f8f8f2',
-          background: '#240129',
+          //background: '#240129',
           textColor: '#f8f8f2',
-          codeTextColor: '#8be9fd',
+          codeTextColor: '#5cdeff',
           codeBackgroundColor: '#000524',
           borderColor: '#0d2538',
-          blockQuoteColor: '#8be9fd',
-          highlightColor: '#ff79c6',
-          sidebarSublink: '#f1fa8c',
-          codeTypeColor: '#8be9fd',
+          blockQuoteColor: '#5cdeff',
+          highlightColor: '#fefb00',
+          sidebarSublink: '#61e190',
+          codeTypeColor: '#5cdeff',
           coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
           toggleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
         },
         light: {
           accent: '#8be9fd',
           toggleBackground: '#f8f8f2',
-          background: '#240129',
+          //background: '#ffffff',
           textColor: '#f8f8f2',
-          codeTextColor: '#8be9fd',
+          codeTextColor: '#5cdeff',
           codeBackgroundColor: '#000524',
           borderColor: '#0d2538',
-          blockQuoteColor: '#8be9fd',
-          highlightColor: '#ff79c6',
-          sidebarSublink: '#f1fa8c',
-          codeTypeColor: '#8be9fd',
+          blockQuoteColor: '#5cdeff',
+          highlightColor: '#fefb00',
+          sidebarSublink: '#61e190',
+          codeTypeColor: '#5cdeff',
           coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
           toggleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
         }
@@ -356,9 +404,11 @@
   <script src="//unpkg.com/prismjs/components/prism-groovy.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-typescript.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
-  <!-- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+  <!-- script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script -->
   <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script>
   <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-drawio/viewer.min.js"></script>
+  <script src='//cdn.jsdelivr.net/npm/docsify-drawio/drawio.js'></script>
   <div class="footer"></div>
   <div class="progress-bar"></div>
 </body>

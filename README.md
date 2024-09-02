@@ -1,19 +1,20 @@
-# Riaan Nolan
+![Riaan Nolan](/images/riaannolan-logo.png?raw=true "Riaan Nolan")
+
 <span style="color:#f1fa8c; font-weight:bold">curious /ˈkjʊərɪəs/ eager to know or learn something</span>
 
 <img align="right" src="/riaan/images/riaan-goggins.png" title="Riaan Nolan" alt="Riaan Nolan">
 
 ## About
 
-Welcome! I am a DevOps engineer with a strong focus on Infrastructure, Configuration and Automation pipelines in Code.
+Leading Versent's HashiCorp practice, I specialize in infrastructure automation and crafting state-of-the-art solutions. My role encompasses pre-sales POCs, MVPs, and productionizing Terraform and Vault Enterprise, alongside developing acceleration programs that bolster our delivery capabilities. With a strong focus on collaborative frameworks, my efforts contributed to Versent's recognition as HashiCorp's Innovation Partner of the year.
 
-I have previously worked for Multi-National companies in Portugal, Germany, China, South Africa, the United States and Australia, with remote teams across the globe in many tmelines.
+As a HashiCorp Ambassador, my commitment to the community is exemplified through multiple years of significant contributions and knowledge sharing. I've established a reputation for excellence by crafting Hashiqube, a comprehensive DevOps lab, and by maintaining active participation in HashiCorp's events. My certifications in Terraform and Vault demonstrate a dedication to mastering technologies that drive efficiency and innovation in cloud infrastructure.
 
-During my career I have been, Lead DevOps, Head of DevOps Engineering, Director of DevOps, Principle Solutions Architect, Principle Consultant and HashiCorp Ambassador.
+Previously Lead DevOps, Head of DevOps Engineering, Director of DevOps, Principle Solutions Architect, Principle Consultant and HashiCorp Ambassador.
 
 Please connect with me on [LinkedIn](https://www.linkedin.com/in/riaannolan/) or check out [my Credly profile](https://www.credly.com/users/riaan-nolan.e657145c)
 
-![My Hashicorp Badges](/riaan/images/hashicorp-badges.png?raw=true "My Hashicorp Badges")
+![My Hashicorp Badges](images/hashicorp-badges.png?raw=true "My Hashicorp Badges")
 
 ## Projects
 <a href="https://hashiqube.com" target="_blank">__HashiQube__</a> <span style="color:#f1fa8c; font-weight:bold">A DevOps Development Lab running All HashiCorp products</span>
