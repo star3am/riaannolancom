@@ -6,11 +6,11 @@
 
 ## About
 
-Leading Versent's HashiCorp practice, I specialize in infrastructure automation and crafting state-of-the-art solutions. My role encompasses pre-sales POCs, MVPs, and productionizing Terraform and Vault Enterprise, alongside developing acceleration programs that bolster our delivery capabilities. With a strong focus on collaborative frameworks, my efforts contributed to Versent's recognition as HashiCorp's Innovation Partner of the year.
+I specialize in infrastructure automation and crafting state-of-the-art solutions. My role encompasses pre-sales POCs, MVPs, and productionizing Terraform and Vault Enterprise, alongside developing acceleration programs that bolster our delivery capabilities. With a strong focus on collaborative frameworks, and establishing Centres of Excellence (CoE) which involves identifying a specific area of expertise within an organization, gathering the best talent and resources related to that field, and creating a centralized hub to develop best practices, provide training, support implementation, and ultimately elevate the organization's capabilities in that area to a world-class level. 
 
 As a HashiCorp Ambassador, my commitment to the community is exemplified through multiple years of significant contributions and knowledge sharing. I've established a reputation for excellence by crafting Hashiqube, a comprehensive DevOps lab, and by maintaining active participation in HashiCorp's events. My certifications in Terraform and Vault demonstrate a dedication to mastering technologies that drive efficiency and innovation in cloud infrastructure.
 
-Previously Lead DevOps, Head of DevOps Engineering, Director of DevOps, Principle Solutions Architect, Principle Consultant and HashiCorp Ambassador.
+Currently, DevOps Tech Lead. Previously Lead DevOps, Head of DevOps Engineering, Director of DevOps, Principle Solutions Architect, Principle Consultant and HashiCorp Ambassador.
 
 Please connect with me on [LinkedIn](https://www.linkedin.com/in/riaannolan/) or check out [my Credly profile](https://www.credly.com/users/riaan-nolan.e657145c)
 
