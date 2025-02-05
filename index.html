@@ -51,6 +51,36 @@
       --hashi-purple: #370960;
     }
 
+    /* Fix `close` style on mobile */
+    @media screen and (max-width: 768px) {
+    /* Fix behavior for when sidebar should be open */
+      body .sidebar {
+        transform: translateX(300px);
+      }
+      body .content {
+        transform: translateX(300px);
+      }
+      .sidebar-toggle {
+        background-color: rgba(255,255,255,0.8);
+        transition: 1s background-color;
+        width: 284px;
+        padding: 10px;
+      }
+
+      /* Fix behavior for when sidebar should be closed */
+      body.close .sidebar {
+        transform: translateX(0);
+      }
+      body.close .content {
+        transform: translateX(0px);
+      }
+      body.close .sidebar-toggle {
+        background-color: transparent;
+        width: auto;
+        padding: 30px 30px 10px 10px;
+      }
+    }
+
     body {
       background-image: linear-gradient(-150deg, #00e0a6, #007ae0);
       transition: background-image .15s ease-in-out .15s;
@@ -281,7 +311,7 @@
       height: auto;
     }
   </style>
-<body>
+<body class="close">
   <div class="header"></div>
   <div class="hasinav">
     <a href="https://twitter.com/RiaanNolan" target="_blank" class="qube pink"><img src="/images/twitter-logo.png" border="0" al="Twitter Account" title="Twitter Account"></a>
@@ -305,11 +335,9 @@
       logo: '/riaan/images/riaan-goggins.png',
       name: 'Riaan Nolan',
       repo: 'https://github.com/star3am',
-      search: 'auto',
       auto2top: true,
       relativePath: false,
       homepage: 'README.md',
-      loadSidebar: 'SUMMARY.md',
       subMaxLevel: 3,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       plugins: [
